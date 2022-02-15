@@ -27,20 +27,12 @@ public class Votacion {
         return nombre;
     }
     
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-    
-    public Integer getVotos() {
-        return votos;
-    }
-
     public void setVotos(Integer votos) {
         this.votos = votos;
     }
-
+   
     @Override
     public String toString() {
-        return "Votacion{ nombre=" + nombre + ", votos=" + votos + '}';
+        return "Votacion{ El nombre es =" + nombre + ", los votos son =" + votos + '}';
     }
 }
